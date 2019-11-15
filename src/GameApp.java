@@ -19,28 +19,23 @@ public class GameApp {
 		while (playingGame) {
 
 			if (playerXTurn) {
-				System.out.println("X enter your move (column space row)");
-				System.out.println("Enter 9 9 to leave game");
-				int column = kb.nextInt();
+				System.out.print("X Player\n\tRow:");
 				int row = kb.nextInt();
-
-				if (column == 9)
-					break;
-
-				playerXTurn = !ticTacToe.scribbleX(column, row);
+				System.out.print("\tColumn:");
+				int column = kb.nextInt();
+				System.out.println();
+				playerXTurn = !ticTacToe.scribbleX(row, column);
 
 				if (!playerXTurn) {
 					ticTacToe.printBoard();
 				}
 			} else {
-				System.out.println("O enter your move (column space row)");
-				System.out.println("Enter 9 9 to leave game");
-				int column = kb.nextInt();
+				System.out.print("O Player\n\tRow: ");
 				int row = kb.nextInt();
-
-				if (column == 9)
-					break;
-				playerXTurn = ticTacToe.scribbleO(column, row);
+				System.out.print("\tColumn: ");
+				int column = kb.nextInt();
+				System.out.println();
+				playerXTurn = ticTacToe.scribbleO(row, column);
 
 				if (playerXTurn) {
 					ticTacToe.printBoard();

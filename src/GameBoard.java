@@ -76,13 +76,13 @@ public class GameBoard {
 		restart = true;
 	}
 
-	public boolean scribbleX(int column, int row) {
+	public boolean scribbleX(int row, int column) {
 		// check for index out of bounds
-		if (column >= 0 && column <= 2 && row >= 0 && row <= 2) {
+		if (row >= 0 && row <= 2 && column >= 0 && column <= 2) {
 
-			if (board[column][row] == '_') {
-				scoreX *= boardPoints[column][row];
-				board[column][row] = 'X';
+			if (board[row][column] == '_') {
+				scoreX *= boardPoints[row][column];
+				board[row][column] = 'X';
 				turnsPlayed++;
 				return true;
 			} else {
@@ -96,12 +96,12 @@ public class GameBoard {
 		}
 	}
 
-	public boolean scribbleO(int column, int row) {
+	public boolean scribbleO(int row, int column) {
 		// check for out of bounds
-		if (column >= 0 && column <= 2 && row >= 0 && row <= 2) {
-			if (board[column][row] == '_') {
-				scoreO *= boardPoints[column][row];
-				board[column][row] = 'O';
+		if (row >= 0 && row <= 2 && column >= 0 && column <= 2) {
+			if (board[row][column] == '_') {
+				scoreO *= boardPoints[row][column];
+				board[row][column] = 'O';
 				turnsPlayed++;
 				return true;
 			} else {
