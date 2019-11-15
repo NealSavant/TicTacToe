@@ -1,5 +1,5 @@
 //AUTHOR: Neal Savant
-//November 14, 2019
+//DATE: November 14, 2019
 public class GameBoard {
 
 	// F I E L D S
