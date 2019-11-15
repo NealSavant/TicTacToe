@@ -2,4 +2,6 @@
 Command Line game built in java
 
 
-![Image description](https://github.com/NealSavant/TicTacToe/blob/master/Screen%20Shot%202019-11-15%20at%208.44.01%20AM.png?raw=true)
+
+### Gameplay
+![Game Demo](https://user-images.githubusercontent.com/55298338/68956172-c7f4ad00-0784-11ea-93d1-c17f6b0fea98.png)
