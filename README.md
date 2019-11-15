@@ -1,6 +1,6 @@
 # TicTacToe
 Command Line game built in java!
-Run GameApp.java in terminal to play.
+Run src\GameApp.java in terminal to play.
 
 
 ### Gameplay Demo
