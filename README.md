@@ -21,8 +21,12 @@ Run src/GameApp.java in terminal to play.
 
 ### X Wins in Diagonal
 
-![Game Demo](<https://user-images.githubusercontent.com/55298338/68957698-d0021c00-0787-11ea-93d6-980cdd9be38b.png>)
+![Winning Game Demo](<https://user-images.githubusercontent.com/55298338/68957698-d0021c00-0787-11ea-93d6-980cdd9be38b.png>)
 
 ### Cats Game
 
-![Game Demo1 with Error Catches](<https://user-images.githubusercontent.com/55298338/68961888-941f8480-0790-11ea-8390-b28b27d15959.png>)
+![Cats Game Demo](<https://user-images.githubusercontent.com/55298338/68962286-71da3680-0791-11ea-956c-a623e6dd4c7e.png>)
+
+### Error Catching
+
+![Error Catching Demo](<https://user-images.githubusercontent.com/55298338/68962293-77378100-0791-11ea-9e53-a884bd3487bd.png>)
