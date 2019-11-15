@@ -25,4 +25,4 @@ Run src/GameApp.java in terminal to play.
 
 ### Cats Game
 
-![Game Demo1](<https://user-images.githubusercontent.com/55298338/68958176-d349d780-0788-11ea-8c38-a94ef8f22bcc.png>)
+![Game Demo1 with Error Catches](<https://user-images.githubusercontent.com/55298338/68961888-941f8480-0790-11ea-8390-b28b27d15959.png>)
