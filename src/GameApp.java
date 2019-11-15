@@ -1,7 +1,5 @@
-//
-//
-//
-//
+//AUTHOR: Neal Savant
+//DATE: November 14, 2019
 
 
 import java.util.Scanner;
